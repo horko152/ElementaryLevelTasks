@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B13554D4-3E7C-462D-9FF9-2911DF51E855}</ProjectGuid>
+    <ProjectGuid>{3B4E244D-8F87-4CD0-AF53-3C562157315F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ElementaryLevelTasks</RootNamespace>
-    <AssemblyName>ElementaryLevelTasks</AssemblyName>
+    <RootNamespace>Algoritms11</RootNamespace>
+    <AssemblyName>Algoritms11</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,7 +50,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="TextFile.txt" />
+    <Content Include="ReadFile.txt" />
+    <Content Include="WrittenFile.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

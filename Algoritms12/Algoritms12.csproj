@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B13554D4-3E7C-462D-9FF9-2911DF51E855}</ProjectGuid>
+    <ProjectGuid>{1E8C6E54-63F8-4286-B76D-EB2B8DC1DC3C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ElementaryLevelTasks</RootNamespace>
-    <AssemblyName>ElementaryLevelTasks</AssemblyName>
+    <RootNamespace>Algoritms12</RootNamespace>
+    <AssemblyName>Algoritms12</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,9 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="TextFile.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
